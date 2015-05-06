@@ -12,7 +12,6 @@ return array(
 
     'lib/jstorage.min.js', //used for favorites - there is still some amount of JS code inline of the page -> Todo: Refactoring in upcoming Sprints
     //wird in swissbib/AdvancedSearch.js verwendet
-    'lib/handlebars.js',
     'lib/respond.js',
     'lib/html5shiv.js',
 

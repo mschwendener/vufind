@@ -44,8 +44,6 @@
   );
 ?>
 
-<?= $this->render('search/advanced/templates-handlebars') ?>
-
 <?=$this->flashmessages()?>
 <div class="<?=$this->layoutClass('mainbody')?>">
   <div class="row">
@@ -74,7 +72,7 @@
 
       <div class="row" id="groupPlaceHolder">
         <div class="col-sm-6">
-          <a href="#" onClick="swissbib.AdvancedSearch.addGroup()">
+          <a href="#" onClick="addGroup()">
             <i  class="fa fa-plus-circle"></i>
             <?= $this->transEsc('add_search_group') ?>
           </a>
